@@ -69,6 +69,5 @@ public class ConsoleReader {
         catch(NumberFormatException e){
             throw new InputFormatException("What you entered is not a floating point number!");
         }
-
     }
 }
